@@ -29,7 +29,7 @@ First download the latest version of client and expand it wherever you usually i
 You're done, this version of Copy client will extract in folder named *copy*. Now you need to run the client and login for the first time. Assuming your are running on *x86_64* architecture, run the following command with your user (running with root will configure the client for root user)
 
 {% highlight bash %}
-$ /copy/x86_64/CopyAgent
+$ /opt/copy/x86_64/CopyAgent
 {% endhighlight %}
 
 A window will pop up and ask for your Copy credential, which you should already have. Then the client will create a subdirectory named *Copy* in your home directory and start to sync all your files. The client configuration will be stored in *.copy* subdirectory in your home.
